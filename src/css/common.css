@@ -16,3 +16,22 @@ img {
   display: block;
   max-width: 100%;
 }
+
+/* Для задания №2*/
+
+.timer {
+  margin-top: 40px;
+}
+.field {
+  display: inline-grid;
+  justify-items: center;
+}
+.field:not(:last-child) {
+  margin-right: 15px;
+}
+.value {
+  font-size: 40px;
+}
+.label {
+  font-size: 20px;
+}
